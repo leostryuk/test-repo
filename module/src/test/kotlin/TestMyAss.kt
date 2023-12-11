@@ -14,4 +14,9 @@ class TestMyAss {
     fun hello2() {
         Assertions.assertTrue(sum(1, 1) == 2)
     }
+
+    @Test
+    fun hello3() {
+        Assertions.assertTrue(sum(1, 2) == 3)
+    }
 }
